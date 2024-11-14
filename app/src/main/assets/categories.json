@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "name": "Cardio",
+      "exercises": [
+        {
+          "name": "Correr",
+          "fields": ["duracion", "distancia", "intensidad"]
+        },
+        {
+          "name": "Bicicleta",
+          "fields": ["duracion", "distancia", "intensidad"]
+        }
+      ]
+    },
+    {
+      "name": "Espalda",
+      "exercises": [
+        {
+          "name": "Remo",
+          "fields": ["sets", "repeticiones", "peso"]
+        },
+        {
+          "name": "Dominadas",
+          "fields": ["sets", "repeticiones"]
+        }
+      ]
+    },
+    {
+      "name": "Pierna",
+      "exercises": [
+        {
+          "name": "Sentadilla",
+          "fields": ["sets", "repeticiones", "peso"]
+        },
+        {
+          "name": "Prensa",
+          "fields": ["sets", "repeticiones", "peso"]
+        }
+      ]
+    }
+  ]
+}

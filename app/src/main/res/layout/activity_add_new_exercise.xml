@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_new_exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del nuevo ejercicio" />
+
+    <CheckBox
+        android:id="@+id/checkbox_sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sets" />
+
+    <CheckBox
+        android:id="@+id/checkbox_repetitions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeticiones" />
+
+    <CheckBox
+        android:id="@+id/checkbox_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso" />
+
+    <CheckBox
+        android:id="@+id/checkbox_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración" />
+
+    <CheckBox
+        android:id="@+id/checkbox_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia" />
+
+    <CheckBox
+        android:id="@+id/checkbox_intensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intensidad" />
+
+    <Button
+        android:id="@+id/button_save_new_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar ejercicio" />
+</LinearLayout>
