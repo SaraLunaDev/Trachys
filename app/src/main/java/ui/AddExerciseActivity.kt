@@ -174,7 +174,6 @@ class AddExerciseActivity : AppCompatActivity() {
     }
 
     private fun loadFieldsForExercise(categoryName: String, exerciseName: String): List<String> {
-        // Si el ejercicio está en los ejercicios personalizados, devuelve sus fields
         if (customExercises.containsKey(exerciseName)) {
             return customExercises[exerciseName] ?: listOf()
         }
